@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>VH PROJECT</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/styles.css"/>
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div class="top" id="top"></div>
+        <!-- Header -->
+        <header>
+            <button class="nav-toggle" id="toggle">
+                <span class="hamburger">
+                    <img src="images/menu.png" class="hamburger-icon">
+                    <img src="images/menu icon.png" class="hamburger-icon-2">
+                </span>
+            </button>
+            <p class="phone-number">8 800 000 00 00</p>
+            <nav class="nav" id="sidebar">
+                <button class="nav-toggle nav-toggle-close">
+                    <span class="cross">
+                        <img src="images/cross.png" class="cross-icon">
+                    </span>
+                </button>
+                    <ul class="nav-list" id="nav-list">
+                        <li class="nav-item"><a href="#section" class="nav-link">Menu 1</a></li>
+                        <li class="nav-item"><a href="#section" class="nav-link">Menu 2</a></li>
+                        <li class="nav-item"><a href="#section" class="nav-link">Menu 3</a></li>
+                        <li class="nav-item"><a href="#section" class="nav-link">Menu 4</a></li>
+                        <li class="nav-item"><p class="nav-phone-number">8 800 000 00 0</p> </li>
+                    </ul>                         
+            </nav>
+        </header>
+        <!-- Section -->
+        <section class="section" id="section">
+            <!-- Images part -->
+            <div class="section-1">
+                <div class="carousel">
+                    <div class="carousel-track-container">
+                        <ul class="carousel-track">
+                            <li style="--i:0;" class="carousel-slide current-slide">
+                                <img src="images/slide-1.png" alt="gift box" class="carousel-image"/>
+                            </li>
+    
+                            <li style="--i:1;" class="carousel-slide">
+                                <img src="images/slide-2.png" alt="flower" class="carousel-image"/>
+                            </li>
+    
+                            <li style="--i:2;" class="carousel-slide">
+                                <img src="images/slide-3.png" alt="balloons" class="carousel-image"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button carousel-button-left">
+                            <img src="images/chevron-left.png">
+                        </button>
+                        <button class="carousel-button carousel-button-right">
+                            <img src="images/chevron-right.png">
+                        </button>
+                    </div>                   
+                </div>
+            </div>
+            <!-- Text part -->
+            <div class="section-2">
+                <h1 class="section-title">Bibendum neque egestas congue</h1>
+                <p class="section-text">
+                    lacus sed viverra tellus in hac habitasse 
+                    platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper 
+                    dignissim cras tincidunt lobortis feugiat
+                </p>
+                <button class="section-button">
+                    Click me
+                </button>
+            </div>
+        </section>
+
+        <!-- SCRIPTS -->
+        <script src="js/index.js"></script>
+        <script src="js/carousel.js"></script>
+
+    </body>
+</html>
